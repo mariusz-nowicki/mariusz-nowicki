@@ -4,16 +4,15 @@ Data engineer, grew into it from BI.
 Tech lead of the Microsoft Fabric platform at KPMG Poland.
 
 ### What I actually do
-Design and build data platforms end-to-end — ingestion, lakehouse 
-(medallion: Bronze → Silver → Gold), semantic models, CI/CD, ML.  
-Currently on Microsoft Fabric, sometimes Databricks.
+Design and build data platforms end-to-end: ingestion, storage (mostly medallion), semantic models, CI/CD, ML (most of curiosity sits here).  
+Primarily Microsoft Fabric, with Databricks in the mix.
 
-### How I think about data engineering
+### How I work
 - **Config over code.** Parameterized, reusable pipelines beat one-off 
-  scripts — especially when the same pattern shows up for the fifth time.
+  scripts - especially when the same pattern shows up for the fifth time.
 - **Simple beats complex.** A solution I can explain to a business user in 
   two sentences is usually the one that survives in production.
-- **Skeptical of buzzwords.** "AI-powered", "self-healing", "zero-ETL" — 
+- **Skeptical of buzzwords.** "AI-powered", "self-healing", "zero-ETL" - 
   I want to know what's under the hood before I ship it.
 - **BI background matters.** I build pipelines knowing who reads the 
   reports at the end. The data model is as important as the data lake.
